@@ -1,0 +1,101 @@
+[
+{
+    "fields": {
+        "name": "Attract QA"
+    },
+    "model": "task_1.people",
+    "pk": 1
+},
+{
+    "fields": {
+        "name": "Attract Tech Lead"
+    },
+    "model": "task_1.people",
+    "pk": 2
+},
+{
+    "fields": {
+        "name": "Attract Py Dev"
+    },
+    "model": "task_1.people",
+    "pk": 3
+},
+{
+    "fields": {
+        "name": "Attract Jun Dev"
+    },
+    "model": "task_1.people",
+    "pk": 4
+},
+{
+    "fields": {
+        "name": "Attract HR"
+    },
+    "model": "task_1.people",
+    "pk": 5
+},
+{
+    "fields": {
+        "name": "Attract QA"
+    },
+    "model": "task_1.people",
+    "pk": 6
+},
+{
+    "fields": {
+        "name": "Attract Tech Lead"
+    },
+    "model": "task_1.people",
+    "pk": 7
+},
+{
+    "fields": {
+        "people_id": [
+            1,
+            2
+        ],
+        "education": "Master"
+    },
+    "model": "task_1.document",
+    "pk": 1
+},
+{
+    "fields": {
+        "people_id": [
+            3
+        ],
+        "education": "Bachelor"
+    },
+    "model": "task_1.document",
+    "pk": 2
+},
+{
+    "fields": {
+        "people_id": [
+            4,
+            5
+        ],
+        "education": "Associate's"
+    },
+    "model": "task_1.document",
+    "pk": 3
+},
+{
+    "fields": {
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": true,
+        "is_staff": true,
+        "last_login": "2016-03-20T16:04:48.668Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$fz8CyYVpgbKe$PPun7649Kp5DYSVBYeAMFdELnqV1Hq8ev/DWgZEkhbs=",
+        "email": "admin@admin.admin",
+        "date_joined": "2016-03-20T16:04:34.831Z"
+    },
+    "model": "auth.user",
+    "pk": 1
+}
+]
